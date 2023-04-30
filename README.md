@@ -1,1 +1,1 @@
-# SC2103-Digital_Systems_Design
+# SC2103 - Digital Systems Design

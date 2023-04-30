@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/Data_mem.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/EX_Mem_PR.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/EX_stage.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/ID_EX_PR.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/ID_stage.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/IF_ID_PR.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/IF_stage.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/Instruct_mem.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/Mem_WB_PR.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/Mem_stage.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/up16_Lab5_src/uP16_top.v" \
+"C:/Users/ANIK0001/Downloads/Lab5_zip/uP16_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
